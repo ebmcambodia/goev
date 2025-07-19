@@ -1,0 +1,725 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML5 Template">
+    <meta name="description" content="EV Spark - Electric Vehicle & Charging Stations HTML Template">
+    <meta name="author" content="potenzaglobalsolutions.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>EV Spark - Electric Vehicle & Charging Stations HTML Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Global Compulsory (Do not remove)-->
+    <link rel="stylesheet" href="css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
+    <link rel="stylesheet" href="css/select2/select2.css">
+    <link rel="stylesheet" href="css/range-slider/ion.rangeSlider.css">
+
+    <!-- Template Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <!--=================================
+    Header -->
+    <header class="header header-sticky default">
+      <nav class="navbar navbar-static-top navbar-expand-xl">
+        <div class="container-fluid main-header position-relative">
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"><i class="fas fa-align-left"></i></button>
+          <a class="navbar-brand" href="index.html">
+          <img class="logo img-fluid" src="images/goev.svg" alt="logo" style="max-width: 100%; height: auto;" width="120">
+          <img class="sticky-logo img-fluid" src="images/goev.svg" alt="logo" style="max-width: 100%; height: auto;" width="120">
+        </a>
+
+        <style>
+          .logo {
+            display: block;
+          }
+
+          .sticky-logo {
+            display: none;
+          }
+
+          /* When sticky navbar is active */
+          .navbar.sticky .logo {
+            display: none;
+          }
+
+          .navbar.sticky .sticky-logo {
+            display: block;
+          }
+        </style>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home<i class="fas fa-chevron-down fa-xs"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html"><span>Electric Car</span></a></li>
+                  <li><a class="dropdown-item" href="home-charging-station.html"><span>Charging Station</span></a></li>
+                  <li><a class="dropdown-item" href="home-car-servicing.html"><span>Electric Car Servicing</span></a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown">Pages<i class="fas fa-chevron-down fa-xs"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="about-us.html"><span>About Us</span></a></li>
+                  <li><a class="dropdown-item" href="services.html"><span>Services</span></a></li>
+                  <li><a class="dropdown-item" href="service-details.html"><span>Service Details</span></a></li>
+                  <li><a class="dropdown-item" href="portfolio.html"><span>Portfolio</span></a></li>
+                  <li><a class="dropdown-item" href="portfolio-details.html"><span>Portfolio Details</span></a></li>
+                  <li><a class="dropdown-item" href="coming-soon.html"><span>Coming Soon</span></a></li>
+                  <li><a class="dropdown-item" href="404.html"><span>404</span></a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown">Station<i class="fas fa-chevron-down fa-xs"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="workplaces.html"><span>Workplaces</span></a></li>
+                  <li><a class="dropdown-item" href="software.html"><span>Software</span></a></li>
+                  <li><a class="dropdown-item" href="safety-requirements.html"><span>Safety Requirements</span></a></li>
+                  <li><a class="dropdown-item" href="fuel-retailers.html"><span>Fuel Retailers</span></a></li>
+                  <li><a class="dropdown-item" href="charging-network-operators.html"><span>Charging Network Operators</span></a></li>
+                  <li><a class="dropdown-item" href="residential.html"><span>Residential</span></a></li>
+                  <li><a class="dropdown-item" href="fleets.html"><span>Fleets</span></a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown">Blog<i class="fas fa-chevron-down fa-xs"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="blog.html"><span>Blog</span></a></li>
+                  <li><a class="dropdown-item" href="blog-single.html"><span>Blog Single</span></a></li>
+                  <li><a class="dropdown-item" href="blog-grid.html"><span>Blog Grid</span></a></li>
+                  <li><a class="dropdown-item" href="blog-masonry.html"><span>Blog Masonry</span></a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item active">
+                <a class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown">Shop<i class="fas fa-chevron-down fa-xs"></i></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li class="active"><a class="dropdown-item" href="shop.html"><span>Shop</span></a></li>
+                  <li><a class="dropdown-item" href="shop-single.html"><span>Shop Single</span></a></li>
+                  <li><a class="dropdown-item" href="shop-cart.html"><span>Shop Cart</span></a></li>
+                  <li><a class="dropdown-item" href="shop-checkout.html"><span>Shop Checkout</span></a></li>
+                </ul>
+              </li>
+              <li class="dropdown nav-item">
+                <a class="nav-link" href="contact-us.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="add-listing">
+            <div class="need-help">
+              <div class="icon">
+                <img src="images/svg/phone-01.svg" alt="#">
+              </div>
+              <div class="help-info">
+                <p>Need help? Talk to an expert </p>
+                <span>+126-632-2345</span>
+              </div>
+            </div>
+            <!-- <div class="woo-action">
+              <ul class="list-unstyled">
+                <li class="cart dropdown">
+                  <a href="#" data-bs-toggle="offcanvas" data-bs-target="#cartoffcanvasRight" aria-controls="offcanvasRight">
+                    <span class="cart-icon"><i class="fa-brands fa-opencart"></i></span>
+                    <span class="cart-count">3</span>
+                  </a>
+                </li>
+              </ul>
+            </div> -->
+            <div class="side-menu">
+              <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <img src="images/svg/menu.svg" alt="#">
+                <img class="menu-dark" src="images/svg/menu-dark.svg" alt="#">
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--=================================
+    Header -->
+    <!--=================================
+    cart menu -->
+    <!-- <div class="cart-side-menu offcanvas offcanvas-end" tabindex="-1" id="cartoffcanvasRight">
+      <div class="offcanvas-header">
+        <h3 class="mb-0">Shopping Cart</h3>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="dropdown-menu-right">
+            <ul class="cart-list">
+              <li class="d-flex">
+                <a class="remove-item" href="#"><i class="fas fa-times"></i></a>
+                <img class="img-fluid me-3" src="images/product/01.png" alt="">
+                <div class="cart-info">
+                  <a href="#">2019 Tesla Model x</a>
+                  <span class="d-block">$95,000.00</span>
+                </div>
+              </li>
+              <li class="d-flex">
+                <a class="remove-item" href="#"><i class="fas fa-times"></i></a>
+                <img class="img-fluid me-3" src="images/product/05.png" alt="">
+                <div class="cart-info">
+                  <a href="#">BMW i3</a>
+                  <span class="d-block">$46,980.00</span>
+                </div>
+              </li>
+              <li class="d-flex">
+                <a class="remove-item" href="#"><i class="fas fa-times"></i></a>
+                <img class="img-fluid me-3" src="images/product/03.png" alt="">
+                <div class="cart-info">
+                  <a href="#">Nissan LEAF</a>
+                  <span class="d-block">$5,999.00</span>
+                </div>
+              </li>
+            </ul>
+          <div class="cart-footer">
+            <div class="d-flex mb-3">
+              <b class="me-auto text-dark">Subtotal:</b>
+              <span>$1,47,979</span>
+            </div>
+            <div class="d-inline-block d-sm-flex">
+              <a class="col btn btn-secondary btn-sm me-2 px-4" href="shop-cart.html">View Cart</a>
+              <a class="col btn btn-sm btn-primary ms-0 mt-1 mt-sm-0 ms-sm-2 px-4" href="shop-checkout.html">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--=================================
+    cart menu -->
+    <!--=================================
+    Right menu -->
+    <div class="offcanvas offcanvas-end offcanvas-sidebar-menu" tabindex="-1" id="offcanvasRight">
+      <div class="offcanvas-header text-end justify-content-end p-4">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="offcanvas-body p-4 p-sm-5 d-flex align-content-between flex-wrap justify-content-center">
+        <div class="sidebar-menu">
+          <div class="sidebar-logo">
+            <a href="index.html">
+              <img class="logo img-fluid" src="images/goev.svg" alt="logo" style="max-width: 100%; height: auto;" width="120">
+          <img class="sticky-logo img-fluid" src="images/goev.svg" alt="logo" style="max-width: 100%; height: auto;" width="120">
+        </a>
+
+        <style>
+          .logo {
+            display: block;
+          }
+
+          .sticky-logo {
+            display: none;
+          }
+
+          /* When sticky navbar is active */
+          .navbar.sticky .logo {
+            display: none;
+          }
+
+          .navbar.sticky .sticky-logo {
+            display: block;
+          }
+        </style>
+            </a>
+          </div>
+          <div class="section-title mt-5">
+            <h3 class="title text-white">About us</h3>
+            <p class="text-white">Get the oars in the water and start rowing. Execution is the single biggest factor in achievement so the faster and better your execution.</p>
+          </div>
+          <div class="mt-5">
+            <h3 class="mb-3 text-white">Contact Info</h3>
+            <p class="text-white">17504 Carlton Cuevas Rd,<br> Gulfport, MS, 39503</p>
+            <h2 class="text-white">1-800-555-500</h2>
+          </div>
+          <div class="social-icon mt-5">
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=================================
+    Right menu -->
+    <!--=================================
+    Banner -->
+    <section class="inner-header bg-overlay-black-6 bg-holder" style="background-image: url(./images/bg/bg-02.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="inner-header-tittle">
+              <h2>Shop</h2>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">shop</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=================================
+    Banner -->
+    
+    <!--=================================
+    product -->
+    <section class="space-ptb">
+      <div class="container">
+        <div class="row mb-4 mb-lg-5 mb-md-4 align-items-center">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="d-flex">
+              <h5 class="fw-bold mb-3 mb-md-3 mb-lg-0">Showing all 3 results</h5>
+              <a class="ms-3 text-secondary" href="#" data-bs-toggle="offcanvas" data-bs-target="#showsidebar" aria-controls="offcanvasRight">
+                <i class="fa-solid fa-bars"></i> Show sidebar
+              </a>
+            </div>
+            <!--=================================
+            cart menu -->
+            <div class="cart-side-menu offcanvas offcanvas-end" tabindex="-1" id="showsidebar">
+              <div class="offcanvas-header">
+                <h3 class="mb-0">Filter</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="shop-sidebar">
+                  <div class="widget">
+                    <div class="widget-title">
+                      <h5>Filter by price</h5>
+                    </div>
+                    <div class="mb-3">
+                      <div class="collapse show" id="price">
+                        <div class="property-price-slider">
+                          <input type="text" id="property-price-slider" name="example_name" value="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="price-filter">
+                      <div class="price_label">
+                        Price: <span class="from">$10 — $382</span>
+                      </div>
+                      <a class="" href="#"><i class="fas fa-filter"></i>Filter</a>
+                    </div>
+                  </div>
+                  <div class="widget">
+                    <div class="widget-title">
+                      <h5>Filter by color</h5>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck2">
+                      <label class="custom-control-label form-label" for="customCheck2">Black, brown</label>
+                      <span>(2)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck3">
+                      <label class="custom-control-label form-label" for="customCheck3">Blue</label>
+                      <span>(1)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck4">
+                      <label class="custom-control-label form-label" for="customCheck4">Dark grey</label>
+                      <span>(2)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck5">
+                      <label class="custom-control-label form-label" for="customCheck5">Pink</label>
+                      <span>(3)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck6">
+                      <label class="custom-control-label form-label" for="customCheck6">Green</label>
+                      <span>(1)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck7">
+                      <label class="custom-control-label form-label" for="customCheck7">Red</label>
+                      <span>(1)</span>
+                    </div>
+                  </div>
+                  <div class="widget">
+                    <div class="widget-title">
+                      <h5>Follow on</h5>
+                    </div>
+                    <div class="social">
+                      <ul class="list-unstyled">
+                        <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+                        <li><a href="#"> <i class="fab fa-instagram"></i> </a></li>
+                        <li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
+                        <li><a href="#"> <i class="fab fa-dribbble"></i> </a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="widget">
+                    <div class="widget-title">
+                      <h5>Tags</h5>
+                    </div>
+                    <div class="tagcloud">
+                      <ul class="list-unstyled">
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Automobile</a></li>
+                        <li><a href="#">Electric Vehicle</a></li>
+                        <li><a href="#">Automobile</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--=================================
+            cart menu -->
+          </div>
+          <div class="col-lg-8 col-md-6 col-sm-12 d-flex justify-content-md-end">
+  <div class="select-border">
+    <select class="form-control basic-select">
+      <option value="1" selected="selected">Default sorting</option>
+      <option value="2">Sort by popularity</option>
+      <option value="3">Sort by average rating</option>
+      <option value="4">Sort by latest</option>
+    </select>
+  </div>
+  <div class="gridlist-toggle-wrap ms-4">
+    <div class="gridlist-button-wrap">
+      <div class="gridlist-toggle">
+        <a href="#" title="Grid view" class="gridlist-button grid-2-column">
+          <em>Grid view</em>
+        </a>
+        <a href="#" title="Grid view" class="gridlist-button grid-3-column active">
+          <em>Grid view</em>
+        </a>
+        <a href="#" title="Grid view" class="gridlist-button grid-4-column">
+          <em>Grid view</em>
+        </a>
+        <a href="#" title="List view" class="gridlist-button gridlist-toggle-list">
+          <em>List view</em>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <!-- Product 1 -->
+  <div class="col-lg-4 col-md-6">
+    <div class="product">
+      <div class="product-image thumbnail-bg">
+        <img class="img-fluid" src="images/product/01.png" alt="image">
+        <div class="custom-icon">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="far fa-heart"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="product-content">
+        <div class="product-info">
+          <div class="product-title">
+            <h3><a href="shop-single.html">BMW 7 Series</a></h3>
+          </div>
+          <div class="product-star">
+            <ul class="list-unstyled">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="category">Cable</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="col-lg-4 col-md-6">
+    <div class="product">
+      <div class="product-image thumbnail-bg">
+        <img class="img-fluid" src="images/product/07.png" alt="image">
+        <div class="custom-icon">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="far fa-heart"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="product-content">
+        <div class="product-info">
+          <div class="product-title">
+            <h3><a href="shop-single.html">Charging station 36 kW</a></h3>
+          </div>
+          <div class="product-star">
+            <ul class="list-unstyled">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="category">Portable</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="col-lg-4 col-md-6">
+    <div class="product">
+      <div class="product-image thumbnail-bg">
+        <img class="img-fluid" src="images/product/03.png" alt="image">
+        <div class="custom-icon">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="far fa-heart"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="product-content">
+        <div class="product-info">
+          <div class="product-title">
+            <h3><a href="shop-single.html">BMW i4</a></h3>
+          </div>
+          <div class="product-star">
+            <ul class="list-unstyled">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="category">Charger</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="col-lg-4 col-md-6">
+    <div class="product">
+      <div class="product-image thumbnail-bg">
+        <img class="img-fluid" src="images/product/05.png" alt="image">
+        <div class="custom-icon">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="far fa-heart"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="product-content">
+        <div class="product-info">
+          <div class="product-title">
+            <h3><a href="shop-single.html">EVMS-30</a></h3>
+          </div>
+          <div class="product-star">
+            <ul class="list-unstyled">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="category">Charger</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="col-lg-4 col-md-6">
+    <div class="product">
+      <div class="product-image thumbnail-bg">
+        <img class="img-fluid" src="images/product/05.png" alt="image">
+        <div class="custom-icon">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="far fa-heart"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="product-content">
+        <div class="product-info">
+          <div class="product-title">
+            <h3><a href="shop-single.html">Audi S5 Sportback</a></h3>
+          </div>
+          <div class="product-star">
+            <ul class="list-unstyled">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="category">Cable</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="col-lg-4 col-md-6">
+    <div class="product">
+      <div class="product-image thumbnail-bg">
+        <img class="img-fluid" src="images/product/06.png" alt="image">
+        <div class="custom-icon">
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="far fa-heart"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="product-content">
+        <div class="product-info">
+          <div class="product-title">
+            <h3><a href="shop-single.html">EVB1A22PCRI Schneider Electric</a></h3>
+          </div>
+          <div class="product-star">
+            <ul class="list-unstyled">
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="fas fa-star"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+              <li><i class="far fa-star-half-alt"></i></li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="category">Portable</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pagination -->
+<div class="row">
+  <div class="col-12 text-center mt-4">
+    <ul class="pagination mb-0">
+      <li class="page-item active" aria-current="page"><span class="page-link">1</span> <span class="sr-only">(current)</span></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+    </ul>
+  </div>
+</div>
+    </section>
+    <!--=================================
+    product -->
+    
+    <!--=================================
+    footer-->
+    <footer class="footer footer-style-02 space-pt bg-overlay-secondary-9 bg-holder" style="background-image: url(images/home-02/footer-bg.jpg);">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
+            <div class="footer-logo mb-3 mb-md-5">
+              <img class="logo img-fluid" src="images/logo-white.svg" alt="logo">
+            </div>
+            <div class="call-center">
+              <h2>1-800-555-500</h2>
+              <h3>Toll free number</h3>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-2 mb-4 mb-lg-0">
+            <div class="useful-links">
+              <h5 class="text-white mb-3">Quick links</h5>
+              <ul class="list-unstyled mb-0">
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="service-details.html">Service Details</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 mb-md-0 mb-4">
+            <div class="useful-links">
+              <h5 class="text-white mb-3">Station</h5>
+              <ul class="list-unstyled mb-0">
+                <li><a href="workplaces.html">Workplaces</a></li>
+                <li><a href="software.html">Software</a></li>
+                <li><a href="safety-requirements.html">Safety Requirements</a></li>
+                <li><a href="fuel-retailers.html">Fuel Retailers</a></li>
+                <li><a href="charging-network-operators.html">Charging Network Operators</a></li>
+                <li><a href="residential.html">Residential</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="footer-newsletter newsletter-style-02">
+              <h3 class="text-white mb-3">Newsletter</h3>
+              <p class="me-5">Subscribe to our newsletter for daily new and updates.</p>
+              <form class="form-inline dark-form mb-4">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Enter email for newsletter">
+                </div>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+              <div class="form-check">
+                <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white" for="flexCheckDefault">
+                  I agree to the Privacy Policy.
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright position-relative">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-12 col-lg-6 justify-content-lg-start justify-content-md-center d-flex text-center justify-content-center">
+              <p class="mb-0 text-white">© Copyright 2022 <a href="#!">EV Spark</a> All Rights Reserved.</p>
+            </div>
+            <div class="col-md-12 col-lg-6 justify-content-lg-end justify-content-md-center justify-content-center d-flex mt-lg-0 mt-md-4 mt-3">
+              <div class="footer-social-icon">
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-dropbox"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--=================================
+    footer-->
+    <!--=================================
+    Back To Top-->
+    <div id="back-to-top" class="back-to-top">
+      <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <!--=================================
+    Back To Top-->
+
+    <!--=================================
+    Javascript -->
+    <!-- JS Global Compulsory (Do not remove)-->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
+    <script src="js/select2/select2.full.js"></script>
+    <script src="js/range-slider/ion.rangeSlider.min.js"></script>
+
+    <!-- Template Scripts (Do not remove)-->
+    <script src="js/custom.js"></script>
+    
+  </body>
+</html>
