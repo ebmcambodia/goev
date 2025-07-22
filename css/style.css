@@ -11143,6 +11143,26 @@ ul.footer-contact li {
             background-color: #bb2d3b;
             transform: rotate(90deg);
           }
+
+          /* logo */
+            .logo {
+            display: block;
+          }
+
+          .sticky-logo {
+            display: none;
+          }
+
+          /* When sticky navbar is active */
+          .navbar.sticky .logo {
+            display: none;
+          }
+
+          .navbar.sticky .sticky-logo {
+            display: block;
+          }
+
+
       
 
 
