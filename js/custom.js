@@ -553,3 +553,16 @@ POTENZA.pieChart = function () {
     POTENZA.qty();
   });
 })(jQuery);
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const closeButton = document.querySelector('.btn-close-menu, .btn-close-menu-custom, .btn-close-circle');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+
+    if (closeButton && navbarCollapse) {
+      closeButton.addEventListener('click', function () {
+        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (bsCollapse) bsCollapse.hide();
+      });
+    }
+  });
